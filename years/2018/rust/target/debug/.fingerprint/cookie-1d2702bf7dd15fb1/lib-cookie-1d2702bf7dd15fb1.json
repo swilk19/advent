@@ -1,1 +1,0 @@
-{"rustc":16808136130384033570,"features":"[\"percent-encode\", \"url\"]","target":15842805620413795578,"profile":9935990280773120926,"path":16479555572673482563,"deps":[["time v0.1.42","time",14002699881329669531],["url v1.7.2","url",12551102946750563286]],"local":[{"Precalculated":"0.11.1"}],"rustflags":[],"edition":"Edition2015"}

@@ -1,1 +1,0 @@
-{"rustc":16808136130384033570,"features":"[]","target":12461672604045772176,"profile":14996655781355331481,"path":1036222786711178230,"deps":[["reqwest v0.9.16","reqwest",16331696683229350529]],"local":[{"MtimeBased":[[1556923123,519162000],".fingerprint/advent-5bed6bd1dbdc15e4/dep-bin-advent-5bed6bd1dbdc15e4"]}],"rustflags":[],"edition":"Edition2018"}
