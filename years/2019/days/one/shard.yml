@@ -1,0 +1,17 @@
+name: one
+version: 0.1.0
+
+authors:
+  - swilkins <sean@swilkins.io>
+
+targets:
+  one:
+    main: src/one.cr
+
+crystal: 0.31.1
+
+license: MIT
+
+dependencies:
+  cli:
+    github: mosop/cli
