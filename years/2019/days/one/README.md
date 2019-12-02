@@ -1,14 +1,15 @@
 # one
 
-TODO: Write a description here
+A CLI tool written in Crystal to help solve Advent of Code 2019 Day 1
 
 ## Installation
 
-TODO: Write installation instructions here
+`shards install`
 
 ## Usage
 
-TODO: Write usage instructions here
+Find the path to your day one input:
+`crystal run src/one.cr -- path/to/input.txt`
 
 ## Development
 
