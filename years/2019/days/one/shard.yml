@@ -13,5 +13,5 @@ crystal: 0.31.1
 license: MIT
 
 dependencies:
-  cli:
-    github: mosop/cli
+  admiral:
+    github: jwaldrip/admiral.cr
