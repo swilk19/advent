@@ -4,12 +4,11 @@ TODO: Write a description here
 
 ## Installation
 
-`shards build`
+TODO: Write installation instructions here
 
 ## Usage
 
-`shards build`
-`bin/advent --day 1 --part 1 day_one/input.txt`
+TODO: Write usage instructions here
 
 ## Development
 
