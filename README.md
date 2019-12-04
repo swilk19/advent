@@ -1,14 +1,16 @@
-# one
+# Advent
 
-TODO: Write a description here
+A command line tool to assist solving the Advent of Code 2019 challenges
 
 ## Installation
 
-TODO: Write installation instructions here
+`shards build`
 
 ## Usage
 
-TODO: Write usage instructions here
+`shards build`
+`bin/advent --help`
+`bin/advent --day 1 --part 2 spec/input.txt`
 
 ## Development
 
