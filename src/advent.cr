@@ -11,6 +11,8 @@ class Advent < Admiral::Command
     case flags.day
     when 1 
       DayOne::Solver.new(arguments.file, flags.part).solve
+    when 2
+      DayTwo::IntCode.new(arguments.file, flags.part).solve
     else 
       STDERR.puts "Error: invalid day."
     end

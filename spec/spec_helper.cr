@@ -1,2 +1,3 @@
 require "spec"
-require "../src/day_one/space_module"
+require "../src/day_one/*"
+require "../src/day_two/*"
