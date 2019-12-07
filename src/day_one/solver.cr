@@ -1,3 +1,5 @@
+require "./space_module"
+
 module DayOne
   class Solver
     def initialize(file : String, part : Int32)

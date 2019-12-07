@@ -19,7 +19,7 @@ module DayOne
         return 0 unless mass > 0
 
         fuel_needed = SpaceModule.new(mass).complex_fuel
-        
+
         return 0 if fuel_needed < 0
         fuel_needed
       end

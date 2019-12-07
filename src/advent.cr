@@ -1,4 +1,5 @@
-require "./day_one/*"
+require "./day_one/solver"
+require "./day_two/solver"
 require "admiral"
 
 class Advent < Admiral::Command
@@ -9,9 +10,11 @@ class Advent < Admiral::Command
 
   def run
     case flags.day
-    when 1 
+    when 1
       DayOne::Solver.new(arguments.file, flags.part).solve
-    else 
+    when 2
+      DayTwo::Solver.new(arguments.file, flags.part).solve
+    else
       STDERR.puts "Error: invalid day."
     end
   end
