@@ -11,7 +11,7 @@ module DayOne
     end
 
     def basic_fuel : Int32
-      Int32.new((@mass / 3).floor - 2)
+      (@mass // 3) - 2
     end
 
     def complex_fuel : Int32

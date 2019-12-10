@@ -3,21 +3,19 @@ require "./opcode"
 
 module DayTwo
   class Intcode
-    def self.compile(program : String, production = false) : Array(Int32)
-      instructions = Intcode.new(program, production)
+    def self.compile(program : String, substitutions = {12, 2}) : Array(Int32)
+      instructions = Intcode.new(program, substitutions)
 
       instructions.execute
     end
 
     getter program : Array(Int32)
 
-    def initialize(program : String, production = false)
-      @program = program.split(",").map { |string| Int32.new(string) }
+    def initialize(program : String, substitutions = {12, 2})
+      @program = program.split(",").map { |string| string.to_i }
 
-      if production
-        @program[1] = 12
-        @program[2] = 2
-      end
+      @program[1] = substitutions[0]
+      @program[2] = substitutions[1]
     end
 
     def execute : Array(Int32)
