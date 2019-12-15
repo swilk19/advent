@@ -9,8 +9,10 @@ A command line tool to assist solving the Advent of Code 2019 challenges
 ## Usage
 
 `shards build`
+
 `bin/advent --help`
-`bin/advent --day 1 --part 2 spec/input.txt`
+
+`bin/advent --day 1 --part 2 inputs/1.txt`
 
 ## Development
 
