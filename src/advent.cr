@@ -1,5 +1,6 @@
 require "./day_one/solver"
 require "./day_two/solver"
+require "./day_three/solver"
 require "admiral"
 
 class Advent < Admiral::Command
@@ -14,6 +15,8 @@ class Advent < Admiral::Command
       DayOne::Solver.new(arguments.file, flags.part).solve
     when 2
       DayTwo::Solver.new(arguments.file, flags.part).solve
+    when 3
+      DayThree::Solver.new(arguments.file, flags.part).solve
     else
       STDERR.puts "Error: invalid day."
     end
