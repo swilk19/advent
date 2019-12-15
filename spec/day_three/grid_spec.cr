@@ -30,7 +30,7 @@ describe DayThree::Grid do
       grid.min_distance.should eq 159
     end
 
-    it "returns the minimum delay as 159" do
+    it "returns the minimum delay as 610" do
       grid.min_delay.should eq 610
     end
   end
